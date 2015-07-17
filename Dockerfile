@@ -16,7 +16,8 @@ RUN apt-get update \
 ENV PATH /usr/share/elasticsearch/bin:$PATH
 COPY config /usr/share/elasticsearch/config
 
-VOLUME /usr/share/elasticsearch/data
+# VOLUME /usr/share/elasticsearch/data
+VOLUME ["/data"]
 
 # install plugins
 RUN /usr/share/elasticsearch/bin/plugin -install elasticsearch/elasticsearch-mapper-attachments/2.6.0
