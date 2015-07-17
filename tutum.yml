@@ -1,0 +1,4 @@
+elasticsearch:
+  image: 13genius/elasticsearch
+  ports:
+    - 9200:9200
