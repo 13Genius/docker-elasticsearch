@@ -13,7 +13,7 @@ To create the image `13genius/elasticsearch`:
 
 You can also pull the image from the registry:
 
-    docker pull tutum/elasticsearch
+    docker pull 13genius/elasticsearch
 
 
 Running elasticsearch
@@ -32,7 +32,7 @@ Running elasticsearch with HTTP basic authentication
 
 Use environment variables `ELASTICSEARCH_USER` and `ELASTICSEARCH_PASS` to specify the username and password and activated HTTP basic authentication (HTTP basic auth is disabled by default):
 
-    docker run -d -p 9200:9200 -e ELASTICSEARCH_USER=admin -e ELASTICSEARCH_PASS=mypass tutum/elasticsearch
+    docker run -d -p 9200:9200 -e ELASTICSEARCH_USER=admin -e ELASTICSEARCH_PASS=mypass 13genius/elasticsearch
 
 Now you can connect to Elasticsearch by:
 
