@@ -1,4 +1,4 @@
-13genius-docker-elasticsearch
+docker-elasticsearch
 ==========================
 
 Docker image to run an Elasticsearch server
